@@ -4,7 +4,7 @@ import { TbBrandNextjs,TbBrandThreejs  } from "react-icons/tb";
 import { SiRemix,SiSocketdotio,SiExpress ,SiFramer ,SiTailwindcss,SiMui   } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 const Hero = () => {
-  return <div id="home" className="container relative z-0 w-full min-h-screen ">
+  return <div id="home" className="container relative z-0 w-full min-h-screen group">
     <div className="absolute top-0 left-0 z-10 w-full h-full">
     <img className="w-full h-full " src="/galaxy.gif" alt="galaxy" />
     </div>
@@ -29,6 +29,10 @@ const Hero = () => {
         </div>
         <span className="lg:text-[30px] md:text-[30px] text-[18px] reflection mx-auto inline-block text-center text-white font-syncopate font-[100] my-2 bg-gradient-to-b from-red-500 to-white bg-clip-text leading-6">MERN STACK DEVELOPER</span>
         <button className=" px-10 bg-blue-600 bg-opacity-20 reflection hover:bg-blue-500 transition-all duration-500 ease-linear  py-3 rounded-md text-white  border-[.02px] overflow-hidden mt-10 border-gray-900 font-gruppo">Contact me</button>
+        <div className="mt-10 overflow-hidden transition-all duration-500 rounded-full w-72 h-72 opacity-5 group-hover:opacity-100">
+
+        <img className="object-cover w-full h-full" src="/public/myphoto.png"/>
+        </div>
     </div>
     </div>
 

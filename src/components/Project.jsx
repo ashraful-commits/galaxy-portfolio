@@ -219,7 +219,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100"
+                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -262,7 +262,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100"
+                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -305,7 +305,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100"
+                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -348,7 +348,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100"
+                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -391,7 +391,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100"
+                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -434,7 +434,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100"
+                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -477,7 +477,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100"
+                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />

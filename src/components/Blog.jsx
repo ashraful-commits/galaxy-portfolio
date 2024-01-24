@@ -117,7 +117,7 @@ const Blog = () => {
         </h2>
         <div className="w-full h-full">
             <div className="flex flex-col items-start w-full gap-5 p-4 bg-blue-500 rounded-lg group bg-opacity-10 md:flex-row lg:flex-row ">
-              <div className="flex justify-center min-w-[50%] opacity-5 group-hover:opacity-100  items-center w-full h-full transition-all duration-200 ease-in-out">
+              <div className="flex justify-center min-w-[50%] opacity-5 group-hover:opacity-100 group-hover:backdrop-blur-lg  items-center w-full h-full transition-all duration-200 ease-in-out">
                 <img
                   src={aboutbg}
                   className="object-cover w-full h-full rounded-md "
