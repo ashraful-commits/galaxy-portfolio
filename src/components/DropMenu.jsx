@@ -7,7 +7,7 @@ import { RiFunctionLine } from "react-icons/ri";
 import { GrServices ,  } from "react-icons/gr";
 const DropMenu = () => {
   return <div className="w-[200px] h-auto z-[99999] relative ">
-    <div className="absolute z-50 w-full h-auto p-3 bg-blue-600 border border-gray-800 bg-opacity-15">
+    <div className="absolute z-50 w-full h-auto p-3 bg-blue-600 border border-gray-800 backdrop-blur-sm bg-opacity-15">
   <ul className="flex flex-col gap-3">
     <li className="flex gap-2 p-1 transition-all duration-300 ease-in-out rounded-lg cursor-pointer hover:bg-blue-700 hover:bg-opacity-30"><BiHomeAlt2 size={25} color="white"/><a href="#home" className="text-white font-gruppo text-[20px]">Home</a></li>
     <li className="flex gap-2 p-1 transition-all duration-300 ease-in-out rounded-lg cursor-pointer hover:bg-blue-700 hover:bg-opacity-30"> <SiAboutdotme size={25} color="white"/><a href="#about" className="text-white font-gruppo text-[20px]">About</a></li>
