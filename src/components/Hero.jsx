@@ -6,8 +6,7 @@ import { DiMongodb } from "react-icons/di";
 const Hero = () => {
   return <div className="relative z-0 w-full min-h-screen">
     <div className="absolute top-0 left-0 z-10 w-full h-full">
-
-    <img className="w-full h-full " src="/public/galaxy.gif" alt="galaxy" />
+    <img className="w-full h-full " src="/galaxy.gif" alt="galaxy" />
     </div>
     <div className="absolute z-50 w-full">
     <Menu/>
