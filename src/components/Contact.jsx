@@ -110,8 +110,9 @@ const Contact = () => {
   };
   return (
     <div
-      className="relative z-0 flex items-center justify-center w-full min-h-screen overflow-auto container-fluid px"
+      className="relative z-0 flex items-center justify-center w-full min-h-screen overflow-auto container-fluid px "
     >
+      
         <div className="absolute left-0 z-10 w-full h-full ">
             <img className="w-full h-full" src="/galaxy.gif" alt="" />
         </div>
