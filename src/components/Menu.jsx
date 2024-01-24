@@ -14,8 +14,8 @@ const closeMenu=(e)=>{
     window.addEventListener("click",closeMenu)
     return ()=> window.removeEventListener("click",closeMenu)
   },[])
-  return <div ref={menuRef} className="container fixed top-0 z-[9999999] flex justify-between w-full mt-10 md:px-0 lg:px-0 xl:px-0">
-    <div   className="flex items-center justify-center px-5 relative z-[999999] cursor-pointer">
+  return <div ref={menuRef} className="container fixed top-0 z-[9999999] flex justify-between w-full mt-10 md:px-0 lg:px-0 xl:px-0 ">
+    <div   className="flex backdrop-blur-sm items-center justify-center px-5 relative z-[999999] cursor-pointer">
       <a className="reflection" href="#home">
        <span  className="text-5xl   font-moirai text-white  font-[900]">DA</span>
       </a>
@@ -25,7 +25,7 @@ const closeMenu=(e)=>{
       <DropMenu/>
     </div> 
       }
-    <button onClick={()=>setMenu(!menu)}  className="reflection">
+    <button onClick={()=>setMenu(!menu)}  className="reflection backdrop-blur-sm">
      <svg 
     width="30"
     height="30"
