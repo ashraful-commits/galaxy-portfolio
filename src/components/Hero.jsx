@@ -31,7 +31,7 @@ const Hero = () => {
         <button className=" px-10 bg-blue-600 bg-opacity-20 reflection hover:bg-blue-500 transition-all duration-500 ease-linear  py-3 rounded-md text-white  border-[.02px] overflow-hidden mt-10 border-gray-900 font-gruppo">Contact me</button>
         <div className="mt-10 overflow-hidden transition-all duration-500 rounded-full w-72 h-72 opacity-5 group-hover:opacity-100">
 
-        <img className="object-cover w-full h-full" src="/public/myphoto.png"/>
+        <img className="object-cover w-full h-full" src="/myphoto.png"/>
         </div>
     </div>
     </div>
