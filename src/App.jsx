@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Blog from './components/Blog'
 import Contact from './components/Contact'
 import Hero from './components/Hero'
 import Project from './components/Project'
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Project/>
       <Service/>
+      <Blog/>
       <Contact/>
       </div>
     </div>
