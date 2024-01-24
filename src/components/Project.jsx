@@ -75,7 +75,7 @@ const Project = () => {
   return (
     <div className="relative z-0 w-full min-h-screen">
       <div className="absolute top-0 left-0 z-10 w-full h-full">
-        <img className="object-cover w-full h-full" src="/public/galaxy.gif" />
+        <img className="object-cover w-full h-full" src="/galaxy.gif" />
       </div>
       <div className="relative z-20">
         <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center">

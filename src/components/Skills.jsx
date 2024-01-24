@@ -4,7 +4,7 @@ import { SiRemix,SiMongodb ,SiExpress,SiTailwindcss,SiMui    } from "react-icons
 const Skills = () => {
   return <div className="relative z-0 flex flex-col items-center justify-center w-full min-h-screen px-5 py-20">
     <div className="absolute top-0 left-0 z-10 w-full h-full">
-        <img className="w-full h-full" src="/public/galaxy.gif"/>
+        <img className="w-full h-full" src="/galaxy.gif"/>
     </div>
      <h2 className="text-white font-syncopate text-[32px] lg:text-[50px] md:text-[50px] leading-9 relative text-center z-30 ">Professional skills</h2>
     <div className="relative z-20 grid items-center justify-center h-full grid-cols-2 mt-20 gap-x-1 gap-y-1 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5">

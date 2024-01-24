@@ -14,7 +14,7 @@ const Service = () => {
   return (
     <div className="relative z-0 w-full min-h-screen mx-5">
         <div className="absolute top-0 left-0 z-10 w-full h-full ">
-            <img className="w-full h-full" src="/public/galaxy.gif" alt="" />
+            <img className="w-full h-full" src="/galaxy.gif" alt="" />
         </div>
          <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-20 leading-9 z-20 text-center relative ">
           All Services
