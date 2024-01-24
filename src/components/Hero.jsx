@@ -4,7 +4,7 @@ import { TbBrandNextjs,TbBrandThreejs  } from "react-icons/tb";
 import { SiRemix,SiSocketdotio,SiExpress ,SiFramer ,SiTailwindcss,SiMui   } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 const Hero = () => {
-  return <div className="relative z-0 w-full min-h-screen">
+  return <div className="container relative z-0 w-full min-h-screen">
     <div className="absolute top-0 left-0 z-10 w-full h-full">
     <img className="w-full h-full " src="/galaxy.gif" alt="galaxy" />
     </div>

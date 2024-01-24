@@ -73,7 +73,7 @@ const Project = () => {
     },
   ];
   return (
-    <div className="relative z-0 w-full min-h-screen">
+    <div className="container relative z-0 w-full min-h-screen">
       <div className="absolute top-0 left-0 z-10 w-full h-full">
         <img className="object-cover w-full h-full" src="/galaxy.gif" />
       </div>

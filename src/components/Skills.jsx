@@ -2,7 +2,7 @@ import { FaReact ,FaNodeJs,FaNpm ,FaGithub  } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiRemix,SiMongodb ,SiExpress,SiTailwindcss,SiMui    } from "react-icons/si";
 const Skills = () => {
-  return <div className="relative z-0 flex flex-col items-center justify-center w-full min-h-screen px-5 py-20">
+  return <div className="container relative z-0 flex flex-col items-center justify-center w-full min-h-screen py-20">
     <div className="absolute top-0 left-0 z-10 w-full h-full">
         <img className="w-full h-full" src="/galaxy.gif"/>
     </div>

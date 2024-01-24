@@ -2,7 +2,7 @@
 import { PiCoffeeLight  } from "react-icons/pi"
 import { BsFullscreenExit } from "react-icons/bs";
 const About = () => {
-  return <div className="relative z-0 flex items-center justify-center w-full min-h-screen py-20">
+  return <div className="container relative z-0 flex items-center justify-center w-full min-h-screen py-20">
     <div className="absolute left-0 z-0 w-full h-full">
         <img className="w-full h-full" src="/galaxy.gif"/>
     </div>

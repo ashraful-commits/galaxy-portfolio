@@ -1,10 +1,18 @@
+import { useState } from "react";
+import DropMenu from "./DropMenu";
 
 const Menu = () => {
-  return <div className="flex justify-between w-full px-10 mt-10 md:px-0 lg:px-0 xl:px-0 ">
-    <div  className="relative flex items-center justify-center px-5">
-    <span  className="text-5xl  reflection font-moirai text-white  font-[900] absolute">DA</span>
+  const [menu,setMenu]= useState(false)
+  return <div className="container fixed z-0 flex justify-between w-full mt-10 md:px-0 lg:px-0 xl:px-0">
+    <div  className="flex items-center justify-center px-5 ">
+    <span  className="text-5xl  reflection font-moirai text-white  font-[900]">DA</span>
     </div>
-    <button  className=" reflection">
+    {menu &&
+    <div className="absolute z-50 right-7 top-7">
+      <DropMenu/>
+    </div> 
+      }
+    <button onClick={()=>setMenu(!menu)}  className="reflection">
      <svg 
     width="30"
     height="30"
