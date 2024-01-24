@@ -73,7 +73,7 @@ const Project = () => {
     },
   ];
   return (
-    <div className="container relative z-0 w-full min-h-screen">
+    <div id="project" className="container relative z-0 w-full min-h-screen">
       <div className="absolute top-0 left-0 z-10 w-full h-full">
         <img className="object-cover w-full h-full" src="/galaxy.gif" />
       </div>
@@ -148,7 +148,7 @@ const Project = () => {
             </Tab>
           </TabList>
           <hr className="my-2 border-0 " />
-          <div className="px-5">
+          <div className="w-full">
           <TabPanel className="flex items-center justify-center">
             <div className="grid items-center justify-center w-full grid-cols-1 gap-1 lg:grid-cols-3 md:grid-cols-3">
               {Projects.map((item, index) => {

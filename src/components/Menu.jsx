@@ -3,12 +3,12 @@ import DropMenu from "./DropMenu";
 
 const Menu = () => {
   const [menu,setMenu]= useState(false)
-  return <div className="container fixed z-0 flex justify-between w-full mt-10 md:px-0 lg:px-0 xl:px-0">
-    <div  className="flex items-center justify-center px-5 ">
+  return <div className="container fixed top-0 z-[9999999] flex justify-between w-full mt-10 md:px-0 lg:px-0 xl:px-0">
+    <div  className="flex items-center justify-center px-5 relative z-[999999]">
     <span  className="text-5xl  reflection font-moirai text-white  font-[900]">DA</span>
     </div>
     {menu &&
-    <div className="absolute z-50 right-7 top-7">
+    <div className="absolute z-[9999999] right-7 top-7">
       <DropMenu/>
     </div> 
       }

@@ -12,7 +12,7 @@ import {
 
 const Service = () => {
   return (
-    <div className="container relative z-0 w-full min-h-screen">
+    <div id="service" className="container relative z-0 w-full min-h-screen ">
         <div className="absolute top-0 left-0 z-10 w-full h-full ">
             <img className="w-full h-full" src="/galaxy.gif" alt="" />
         </div>
@@ -20,7 +20,7 @@ const Service = () => {
           All Services
         </h2>
      
-      <div className="relative z-10 grid grid-cols-1 gap-2 px-5 lg:px-0 md:px-0 md:grid-cols-4 lg:grid-cols-4">
+      <div className="relative z-10 grid grid-cols-1 gap-2 md:grid-cols-4 lg:grid-cols-4">
         <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-10 p-5 flex flex-col items-center justify-center hover:bg-opacity-50 transition-all ease-in-out duration-300">
           <FaLaptop size={70} color="white" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">

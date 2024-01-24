@@ -109,7 +109,7 @@ const Contact = () => {
     }
   };
   return (
-    <div
+    <div id="contact"
       className="container relative z-0 flex items-center justify-center w-full min-h-screen overflow-auto "
     >
       

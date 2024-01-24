@@ -1,15 +1,15 @@
-import Menu from "./Menu";
+
 import { FaReact,FaNode,FaFigma   } from "react-icons/fa";
 import { TbBrandNextjs,TbBrandThreejs  } from "react-icons/tb";
 import { SiRemix,SiSocketdotio,SiExpress ,SiFramer ,SiTailwindcss,SiMui   } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 const Hero = () => {
-  return <div className="container relative z-0 w-full min-h-screen">
+  return <div id="home" className="container relative z-0 w-full min-h-screen ">
     <div className="absolute top-0 left-0 z-10 w-full h-full">
     <img className="w-full h-full " src="/galaxy.gif" alt="galaxy" />
     </div>
-    <div className="absolute z-50 w-full">
-    <Menu/>
+    <div className="absolute z-[9999999] w-full">
+    
     <div className="flex flex-col items-center justify-center w-full h-full px-10 mt-52 logo">
         <span className="reflection lg:text-[50px]  md:text-[50px]  text-[36px] leading-9 mx-auto inline-block text-center my-2 text-white font-syncopate font-[100] bg-gradient-to-b from-red-500 to-white bg-clip-text ">Hi, I&apos;M MD ASHRAFUL ALAM</span>
         

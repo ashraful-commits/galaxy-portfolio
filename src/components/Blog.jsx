@@ -96,8 +96,8 @@ const Blog = () => {
 
 
   return (
-    <div
-      className="container relative flex items-center justify-center w-full min-h-screen"
+    <div id="blog"
+      className="container relative z-0 flex items-center justify-center w-full min-h-screen"
       
     >
       
