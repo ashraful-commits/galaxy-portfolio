@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'
 import './App.css'
 import About from './components/About'
 import Blog from './components/Blog'
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className='relative z-0 w-full min-h-screen bg-black'>
+      
       <div className='container relative z-0 w-full h-full mx-auto'>
       <Menu/>
       <Hero/>
@@ -23,6 +25,10 @@ function App() {
       <Service/>
       <Blog/>
       <Contact/>
+      <Helmet>
+        <title>Md ashraful Alam</title>
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2254/2254655.png" />
+      </Helmet>
       </div>
     </div>
   )
