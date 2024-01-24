@@ -1,0 +1,96 @@
+
+
+svg:hover path{
+  animation: svgAnimation 1s infinite alternate;
+  transition: all 1s ease-in-out;
+}
+@keyframes svgAnimation {
+  0% {
+      stroke: red;
+      box-shadow: 0 0 10px red;
+      rotate: 0deg;
+      transform-origin: center center;
+  }
+  50% {
+      stroke: rgb(229, 255, 0);
+      box-shadow: 0 0 30px  rgb(229, 255, 0);
+      rotate: 180deg;
+      transform-origin: center center;
+  }
+  100% {
+      stroke: rgb(43, 255, 0);
+      box-shadow: 0 0 40px rgb(43, 255, 0);
+      rotate: 360deg;
+      transform-origin: center center;
+  }
+}
+@keyframes logoAnimation {
+  0% {
+    background: linear-gradient(0deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  10% {
+    background: linear-gradient(45deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  20% {
+    background: linear-gradient(90deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  30% {
+    background: linear-gradient(135deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  40% {
+    background: linear-gradient(180deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  50% {
+    background: linear-gradient(225deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  60% {
+    background: linear-gradient(270deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  70% {
+    background: linear-gradient(315deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  80% {
+    background: linear-gradient(360deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  80% {
+    background: linear-gradient(0deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: linear-gradient(360deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+
+.bg-shadow{
+  box-shadow:0 0 10px white,0  0 20px white inset, 0 0 30px white,0 0 50px white,0 0 70px white inset,0 0 90px white;
+}
+
+.reflection{
+  transform-origin: center;
+  transform: perspective(800) rotateY(50deg);
+  transition: 0.5s;
+  -webkit-box-reflect:below 2px linear-gradient(transparent,transparent,rgba(71, 71, 71, 0.267));
+
+}
