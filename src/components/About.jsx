@@ -32,7 +32,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <div className="reflection hover:bg-blue-600 hover:bg-opacity-50 transition-all duration-500 ease-in-out relative z-30 border bg-opacity-10 bg-blue-600 p-10 flex justify-center items-center border-gray-900 rounded-2xl lg:w-[40vw] md:w-[70vw] w-[80vw] min-h-[42vw]"> 
+        <div className="reflection hover:bg-blue-600 hover:bg-opacity-50 transition-all duration-500 ease-in-out relative z-30 border bg-opacity-10 bg-blue-600 p-10 flex justify-center items-center border-gray-900 rounded-2xl lg:w-[40vw] md:w-[70vw] w-[80vw] min-h-[36vw]"> 
         <div className="absolute  -top-[30px] shadow-3xl rounded-2xl left-0 z-0 w-full h-full skew-y-3 border-t-[2px] border-t-gray-700 border-dotted"></div><BsFullscreenExit  size={300} fontWeight={100} className="z-20 font-bold" color="#ffffff"/></div>
     </div>
   </div>;

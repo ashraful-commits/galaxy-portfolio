@@ -181,7 +181,7 @@ const Contact = () => {
                   
                   type="text"
                   onChange={handleInput}
-                  className="py-2 text-sm bg-transparent border-b border-gray-800 focus:outline-none placeholder:text-white font-gruppo"
+                  className="py-2 text-sm bg-transparent border-b border-gray-800 focus:outline-none placeholder:text-white font-gruppo focus:text-white"
                   placeholder="Your Name"
                 />
                 <input
@@ -190,7 +190,7 @@ const Contact = () => {
                   name="email"
                   onChange={handleInput}
                   value={input.email}
-                  className="py-2 text-sm bg-transparent border-b border-gray-800 focus:outline-none placeholder:text-white font-gruppo"
+                  className="py-2 text-sm bg-transparent border-b border-gray-800 focus:outline-none placeholder:text-white font-gruppo focus:text-white"
                   placeholder="Your Email"
                 />
                 <input
@@ -199,7 +199,7 @@ const Contact = () => {
                   onChange={handleInput}
                   
                   type="text"
-                  className="py-2 text-sm bg-transparent border-b border-gray-800 focus:outline-none placeholder:text-white font-gruppo"
+                  className="py-2 text-sm bg-transparent border-b border-gray-800 focus:outline-none placeholder:text-white font-gruppo focus:text-white"
                   placeholder="Your message here"
                 />
                 <button
