@@ -93,11 +93,9 @@ const Blog = () => {
 
   const [tabIndex, setTabIndex] = useState(0);
 
-
-
   return (
     <div id="blog"
-      className="container relative z-0 flex items-center justify-center w-full min-h-screen"
+      className="container relative z-0 flex items-center justify-center w-full min-h-screen group"
       
     >
       
@@ -112,7 +110,7 @@ const Blog = () => {
         className="w-full min-h-[100vh] relative z-20"
         
       >
-        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center">
+        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center group-hover:text-purple-500">
           All Blogs
         </h2>
         <div className="w-full h-full">
@@ -144,35 +142,35 @@ const Blog = () => {
           <TabList className="flex flex-wrap justify-center border-0 border-b-gray-800 gap-x-2 ">
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 0 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 0 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               All
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 1 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 1 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               React
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 2 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 2 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
              Next
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 3 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 3 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               Node js
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 4 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 4 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               Express js
@@ -194,7 +192,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                      <h5 className="text-[22px] font-gruppo text-white text-start leading-5">
+                      <h5 className="group-hover:text-yellow-500 text-[22px] font-gruppo text-white text-start leading-5">
                         {item.title}
                       </h5>
                       <p className="text-[16px] text-justify font-gruppo text-white">
@@ -227,7 +225,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                        <h5 className="text-[24px] font-gruppo text-white leading-5">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white leading-5">
                           {item.title}
                         
                         </h5>
@@ -262,7 +260,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                        <h5 className="text-[24px] font-gruppo text-white leading-5">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white leading-5">
                           {item.title}
                         
                         </h5>
@@ -297,7 +295,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                        <h5 className="text-[24px] font-gruppo text-white leading-5">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white leading-5">
                           {item.title}
                         
                         </h5>
@@ -333,7 +331,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                        <h5 className="text-[24px] font-gruppo text-white leading-5">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white leading-5">
                           {item.title}
                         
                         </h5>

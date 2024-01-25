@@ -1,5 +1,3 @@
-
-
 svg:hover path{
   animation: svgAnimation 1s infinite alternate;
   transition: all 1s ease-in-out;

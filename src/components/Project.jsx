@@ -73,75 +73,75 @@ const Project = () => {
     },
   ];
   return (
-    <div id="project" className="container relative z-0 w-full min-h-screen">
-      <div className="absolute top-0 left-0 z-10 w-full h-full">
+    <div id="project" className="container relative z-0 w-full min-h-screen group">
+      <div className="absolute top-0 left-0 z-10 w-full h-full ">
         <img className="object-cover w-full h-full" src="/galaxy.gif" />
       </div>
       <div className="relative z-20">
-        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center">
+        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center group-hover:text-red-500">
           All projects
         </h2>
         <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
           <TabList className="flex flex-wrap justify-center border-0 border-b-gray-800 gap-x-2 ">
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 0 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 0 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               All
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 1 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 1 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               Portfolio
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 2 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 2 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               e-commerce
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 3 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 3 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               social
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 4 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 4 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               ftp server
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 5 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 5 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               education
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 6 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 6 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               mobile
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 7 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 7 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               Blog
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 8 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20"
+                tabIndex == 8 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
               }`}
             >
               dashboard
@@ -158,7 +158,7 @@ const Project = () => {
                     className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                   >
                     <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
-                      <h5 className="text-[24px] font-gruppo text-white">
+                      <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white">
                         {item.name}
                       </h5>
                       <a
@@ -217,7 +217,7 @@ const Project = () => {
                         </a>
                         
                         </div>
-                      </div>
+             group-hover:text-yellow-500          </div>
                       <img
                         className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
@@ -239,7 +239,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
-                        <h5 className="text-[24px] font-gruppo text-white">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white">
                           {item.name}
                         
                         </h5>
@@ -282,7 +282,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
-                        <h5 className="text-[24px] font-gruppo text-white">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white">
                           {item.name}
                         
                         </h5>
@@ -325,7 +325,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
-                        <h5 className="text-[24px] font-gruppo text-white">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white">
                           {item.name}
                         
                         </h5>
@@ -368,7 +368,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
-                        <h5 className="text-[24px] font-gruppo text-white">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white">
                           {item.name}
                         
                         </h5>
@@ -411,7 +411,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
-                        <h5 className="text-[24px] font-gruppo text-white">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white">
                           {item.name}
                         
                         </h5>
@@ -454,7 +454,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
-                        <h5 className="text-[24px] font-gruppo text-white">
+                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white">
                           {item.name}
                         
                         </h5>

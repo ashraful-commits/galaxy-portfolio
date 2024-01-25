@@ -107,7 +107,7 @@ const Contact = () => {
   };
   return (
     <div id="contact"
-      className="container relative z-0 flex items-center justify-center w-full min-h-screen overflow-auto "
+      className="group container relative z-0 flex items-center justify-center w-full min-h-screen overflow-auto "
     >
       
         <div className="absolute left-0 z-10 w-full h-full ">
@@ -136,13 +136,13 @@ const Contact = () => {
               <div className="absolute z-20 flex flex-col items-center justify-center w-full h-full">
                 <p
                   
-                  className="flex items-center justify-center gap-2 text-xl text-white font-gruppo"
+                  className="group-hover:text-green-500 flex items-center justify-center gap-2 text-xl text-white font-gruppo"
                 >
                   Hi, Let&apos;s Quick chat <AiFillMessage />
                 </p>
                 <p
           
-                  className="mb-2 text-white font-gruppo"
+                  className="mb-2 text-white font-gruppo group-hover:text-green-500"
                 >
                   I reply within 24 hours
                 </p>
@@ -159,12 +159,12 @@ const Contact = () => {
               <span className="absolute w-5 h-5 bg-white rounded-full"></span>
               <h1
                
-                className="text-right text-[32px] lg:text-[45px] leading-10 text-white md:text-[40px] capitalize font-syncopate italic"
+                className="group-hover:text-red-500 text-right text-[32px] lg:text-[45px] leading-10 text-white md:text-[40px] capitalize font-syncopate italic"
               >
                 Contact <br />
                 <span className="text-[30px] lg:text-[32px] md:text-[32px] font-syncopate">
                   {" "}
-                  <span className="text-gray-500"> ________Me</span>
+                  <span className="text-gray-500 group-hover:text-red-500"> ________Me</span>
                 </span>
               </h1>
               <form
@@ -202,7 +202,7 @@ const Contact = () => {
                 <button
                   
                   type="submit"
-                  className="px-2 py-1 mt-5 mb-5 font-bold text-white transition-all duration-100 delay-75 bg-blue-600 bg-opacity-20 lg:px-4 lg:py-2 hover:bg-blue-600 hover:text-white font-gruppo"
+                  className="px-2 reflection py-1 mt-5 mb-5 font-bold text-white transition-all duration-100 delay-75 bg-blue-600 bg-opacity-20 lg:px-4 lg:py-2 hover:bg-blue-600 hover:text-white font-gruppo"
                 >
                   Submit
                 </button>
