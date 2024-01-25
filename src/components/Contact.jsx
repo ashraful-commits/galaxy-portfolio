@@ -1,8 +1,5 @@
 
 import  {  useState } from "react";
-import chat from "../../public/chat.jpg";
-import aboutbg from "../../public/herobg3.jpg";
-import aboutbg3 from "../../public/bgabout2.png";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
