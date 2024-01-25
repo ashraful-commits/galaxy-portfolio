@@ -91,6 +91,6 @@ svg:hover path{
   transform-origin: center;
   transform: perspective(800) rotateY(50deg);
   transition: 0.5s;
-  -webkit-box-reflect:below 2px linear-gradient(transparent,transparent,rgba(71, 71, 71, 0.267));
+  -webkit-box-reflect:below 2px linear-gradient(transparent,transparent,rgba(0, 0, 0, 0.267));
 
 }
