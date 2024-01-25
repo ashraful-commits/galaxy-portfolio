@@ -114,7 +114,7 @@ const Contact = () => {
     >
       
         <div className="absolute left-0 z-10 w-full h-full ">
-            <img className="w-full h-full" src="/galaxy.gif" alt="" />
+            <img className="object-cover w-full h-full" src="/galaxy.gif" alt="" />
         </div>
       <ToastContainer
         position="bottom-center"

@@ -157,7 +157,7 @@ const Project = () => {
                     key={index}
                     className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                   >
-                    <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
+                    <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
                       <h5 className="text-[24px] font-gruppo text-white">
                         {item.name}
                       </h5>
@@ -195,7 +195,7 @@ const Project = () => {
                       key={index}
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
+                      <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
                         <h5 className="text-[24px] font-gruppo text-white">
                           {item.name}
                         
@@ -219,7 +219,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
+                        className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -238,7 +238,7 @@ const Project = () => {
                       key={index}
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
+                      <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
                         <h5 className="text-[24px] font-gruppo text-white">
                           {item.name}
                         
@@ -262,7 +262,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
+                        className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -281,7 +281,7 @@ const Project = () => {
                       key={index}
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
+                      <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
                         <h5 className="text-[24px] font-gruppo text-white">
                           {item.name}
                         
@@ -305,7 +305,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
+                        className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -324,7 +324,7 @@ const Project = () => {
                       key={index}
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
+                      <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
                         <h5 className="text-[24px] font-gruppo text-white">
                           {item.name}
                         
@@ -348,7 +348,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
+                        className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -367,7 +367,7 @@ const Project = () => {
                       key={index}
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
+                      <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
                         <h5 className="text-[24px] font-gruppo text-white">
                           {item.name}
                         
@@ -391,7 +391,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
+                        className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -410,7 +410,7 @@ const Project = () => {
                       key={index}
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
+                      <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
                         <h5 className="text-[24px] font-gruppo text-white">
                           {item.name}
                         
@@ -434,7 +434,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
+                        className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />
@@ -453,7 +453,7 @@ const Project = () => {
                       key={index}
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
+                      <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80">
                         <h5 className="text-[24px] font-gruppo text-white">
                           {item.name}
                         
@@ -477,7 +477,7 @@ const Project = () => {
                         </div>
                       </div>
                       <img
-                        className="transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
+                        className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
                         alt=""
                       />

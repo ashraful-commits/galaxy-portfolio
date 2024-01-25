@@ -26,7 +26,7 @@ function App() {
       <Blog/>
       <Contact/>
       <Helmet>
-        <title>Md ashraful Alam</title>
+        <title>Md Ashraful Alam</title>
         <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2254/2254655.png" />
       </Helmet>
       </div>
