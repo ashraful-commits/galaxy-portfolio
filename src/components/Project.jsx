@@ -78,7 +78,7 @@ const Project = () => {
         <img className="object-cover w-full h-full" src="/galaxy.gif" />
       </div>
       <div className="relative z-20">
-        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center group-hover:text-red-500">
+        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center group-hover:text-lime-500">
           All projects
         </h2>
         <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
