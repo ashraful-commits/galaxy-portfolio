@@ -187,7 +187,7 @@ const Blog = () => {
                     key={index}
                     className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
                   >
-                    <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80 ">
+                    <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
@@ -220,7 +220,7 @@ const Blog = () => {
                       key={index}
                       className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80 ">
+                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
@@ -255,7 +255,7 @@ const Blog = () => {
                       key={index}
                       className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80 ">
+                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
@@ -290,7 +290,7 @@ const Blog = () => {
                       key={index}
                       className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80 ">
+                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
@@ -326,7 +326,7 @@ const Blog = () => {
                       key={index}
                       className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
                     >
-                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-blue-900 gap-y-3 bg-opacity-10 group-hover:bg-opacity-80 ">
+                      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
