@@ -24,8 +24,8 @@ const About = () => {
                 <div className="w-full h-[20px] overflow-hidden border border-blue-900 rounded-full">
                 <div className="w-[90%] group-hover:bg-yellow-500 uppercase h-full bg-blue-600 bg-opacity-20 flex justify-center items-center text-[10px] font-gruppo text-white"><span>fontend</span></div>
                 </div>
-                <div className="w-[100%] h-[20px] group-hover:bg-red-500 overflow-hidden border border-blue-900 rounded-full">
-                    <div className="w-[90%] uppercase h-full bg-blue-600 bg-opacity-20 flex justify-center items-center text-[10px] font-gruppo text-white"><span>backend</span></div>
+                <div className="w-[100%] h-[20px]  overflow-hidden border border-blue-900 rounded-full">
+                    <div className="w-[90%] group-hover:bg-red-500 uppercase h-full bg-blue-600 bg-opacity-20 flex justify-center items-center text-[10px] font-gruppo text-white"><span>backend</span></div>
                 </div>
                 <div className="w-full h-[20px] overflow-hidden border border-blue-900 rounded-full">
                 <div className="w-[90%] uppercase h-full bg-blue-600 bg-opacity-20 flex justify-center items-center group-hover:bg-green-500 text-[10px] font-gruppo text-white"><span>mern</span></div>
