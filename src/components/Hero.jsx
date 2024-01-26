@@ -12,7 +12,7 @@ const Hero = () => {
     
     <div className="flex flex-col items-center justify-center w-full h-full px-10 mt-52 logo">
         <span className="reflection lg:text-[50px]  md:text-[50px]  text-[36px] leading-9 mx-auto inline-block text-center my-2 text-white font-syncopate font-[100] bg-gradient-to-b from-red-500 to-white bg-clip-text group-hover:text-green-600">Hi, I&apos;M MD ASHRAFUL ALAM</span>
-        <span className="lg:text-[30px] md:text-[30px] text-[18px] reflection mx-auto inline-block text-center text-white font-syncopate font-[100] my-2 bg-gradient-to-b from-red-500 to-white bg-clip-text leading-6">
+        <span className="lg:text-[30px] md:text-[30px] text-[18px] reflection mx-auto inline-block text-center text-white font-syncopate font-[100] my-5 bg-gradient-to-b from-red-500 to-white bg-clip-text leading-6">
           
           <span className="group-hover:text-green-500">M</span>
           <span className="group-hover:text-orange-500">E</span>
