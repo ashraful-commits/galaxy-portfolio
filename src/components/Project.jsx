@@ -85,63 +85,63 @@ const Project = () => {
           <TabList className="flex flex-wrap justify-center border-0 border-b-gray-800 gap-x-2 ">
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 0 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 0 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               All
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 1 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 1 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               Portfolio
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 2 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 2 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               e-commerce
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 3 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 3 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               social
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 4 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 4 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               ftp server
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 5 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 5 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               education
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 6 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 6 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               mobile
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 7 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 7 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               Blog
             </Tab>
             <Tab
               className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
-                tabIndex == 8 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-green-500"
+                tabIndex == 8 ? " bg-white text-violet-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               dashboard

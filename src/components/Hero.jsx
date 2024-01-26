@@ -17,8 +17,8 @@ const Hero = () => {
           <span className="group-hover:text-green-500">M</span>
           <span className="group-hover:text-orange-500">E</span>
           <span className="group-hover:text-blue-500">R</span>
-          <span className="group-hover:text-green-500">N</span>
-           STACK DEVELOPER
+          <span className="mr-2 group-hover:text-green-500">N</span>
+            STACK DEVELOPER
           
           </span>
         <div className="flex flex-wrap items-center justify-center gap-5 my-10 reflection">
@@ -36,7 +36,7 @@ const Hero = () => {
         <SiMui        className="group-hover:fill-red-500" fill="white" fontSize="24" /> 
         </div>
     
-        <button className=" px-10 bg-blue-600 bg-opacity-20 reflection hover:bg-blue-500 transition-all duration-500 ease-linear  py-3 rounded-md text-white  border-[.02px] overflow-hidden mt-10 border-gray-900 font-gruppo">Contact me</button>
+        <button className=" px-10 bg-blue-600 bg-opacity-20 reflection hover:bg-white transition-all duration-500 ease-linear  py-3 rounded-md text-white hover:text-blue-500  border-[.02px] overflow-hidden mt-10 border-gray-900 font-gruppo font-bold">Contact me</button>
         <div className="mt-10 overflow-hidden transition-all duration-500 rounded-full w-72 h-72 opacity-5 group-hover:opacity-100">
 
         <img className="object-cover w-full h-full" src="/myphoto.png"/>
