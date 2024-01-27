@@ -110,7 +110,7 @@ const Blog = () => {
         className="w-full min-h-[100vh] relative z-20"
         
       >
-        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center group-hover:text-purple-500 font-bold font-bold">
+        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center group-hover:text-purple-500 ">
           All Blogs
         </h2>
         <div className="w-full h-full">
