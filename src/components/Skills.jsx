@@ -1,6 +1,7 @@
 import { FaReact ,FaNodeJs,FaNpm ,FaGithub  } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiRemix,SiMongodb ,SiExpress,SiTailwindcss,SiMui    } from "react-icons/si";
+import { SiRemix,SiMongodb ,SiExpress,SiTailwindcss,SiMui,SiNextdotjs    } from "react-icons/si";
+
 const Skills = () => {
   return <div id="skills" className="container relative z-0 flex flex-col items-center justify-center w-full min-h-screen py-20 group">
     <div className="absolute top-0 left-0 z-10 w-full h-full">
@@ -14,7 +15,7 @@ const Skills = () => {
         </div>
         <div className="relative z-0 flex items-center justify-center transition-all duration-500 ease-in-out bg-blue-600 border border-gray-900  hover:bg-blue-700 hover:bg-opacity-30 min-w-[40vw] md:min-w-[20vw] lg:min-w-[15vw] min-h-[25vh] bg-opacity-5">
             
-            <TbBrandNextjs className="relative z-30 reflection group-hover:fill-red-500" size={100} color="#ffffff"/>
+            <SiNextdotjs className="relative z-30 reflection group-hover:fill-red-500" size={100} color="#ffffff"/>
         </div>
         <div className="relative z-0 flex items-center justify-center transition-all duration-500 ease-in-out bg-blue-600 border border-gray-900  hover:bg-blue-700 hover:bg-opacity-30 min-w-[40vw] md:min-w-[20vw] lg:min-w-[15vw] min-h-[25vh] bg-opacity-5">
             
