@@ -158,7 +158,7 @@ const Project = () => {
                     className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                   >
                     <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
-                      <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold">
+                      <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
                         {item.name}
                       </h5>
                       <a
@@ -196,7 +196,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
-                        <h5 className="text-[24px] font-gruppo text-white">
+                        <h5 className="text-[24px] font-gruppo text-white font-bold">
                           {item.name}
                         
                         </h5>
@@ -239,7 +239,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
-                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold">
+                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
                           {item.name}
                         
                         </h5>
@@ -282,7 +282,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
-                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold">
+                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
                           {item.name}
                         
                         </h5>
@@ -325,7 +325,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
-                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold">
+                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
                           {item.name}
                         
                         </h5>
@@ -368,7 +368,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
-                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold">
+                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
                           {item.name}
                         
                         </h5>
@@ -411,7 +411,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
-                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold">
+                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
                           {item.name}
                         
                         </h5>
@@ -454,7 +454,7 @@ const Project = () => {
                       className="relative w-full overflow-hidden border border-gray-900 h-80 group"
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
-                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold">
+                        <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
                           {item.name}
                         
                         </h5>
