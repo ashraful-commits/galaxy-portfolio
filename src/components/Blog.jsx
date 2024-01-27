@@ -225,7 +225,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white leading-5">
+                        <h5 className="group-hover:text-purple-500 text-[24px] font-gruppo text-white leading-5">
                           {item.title}
                         
                         </h5>
@@ -260,7 +260,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white leading-5">
+                        <h5 className="group-hover:text-purple-500 text-[24px] font-gruppo text-white leading-5">
                           {item.title}
                         
                         </h5>
@@ -295,7 +295,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white leading-5">
+                        <h5 className="group-hover:text-purple-500 text-[24px] font-gruppo text-white leading-5">
                           {item.title}
                         
                         </h5>
@@ -331,7 +331,7 @@ const Blog = () => {
                         <span className="block font-gruppo text-white text-[12px]">{item.category}</span>
                         <span className="block font-gruppo text-white text-[12px]">12 sep 2024</span>
                       </div>
-                        <h5 className="group-hover:text-yellow-500 text-[24px] font-gruppo text-white leading-5">
+                        <h5 className="group-hover:text-purple-500 text-[24px] font-gruppo text-white leading-5">
                           {item.title}
                         
                         </h5>
