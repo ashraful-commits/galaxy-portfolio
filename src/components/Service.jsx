@@ -23,7 +23,7 @@ const Service = () => {
       <div className="relative z-10 grid grid-cols-1 gap-2 md:grid-cols-4 lg:grid-cols-4">
         <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaLaptop size={70} color="white" className="reflection group-hover:fill-orange-500" />
-          <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
+          <h4 className="my-6 font-bold  text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Web Development
           </h4>
           <p className="text-sm text-justify text-gray-300 font-gruppo">
