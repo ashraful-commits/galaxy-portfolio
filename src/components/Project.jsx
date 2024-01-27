@@ -217,7 +217,7 @@ const Project = () => {
                         </a>
                         
                         </div>
-             group-hover:text-yellow-500          </div>
+                    </div>
                       <img
                         className="object-cover w-full h-full transition-all duration-300 ease-in-out opacity-0 group-hover:backdrop-blur-lg group-hover:opacity-100"
                         src={item.preview}
