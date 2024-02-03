@@ -77,70 +77,70 @@ const Project = () => {
       <div className="absolute top-0 left-0 z-10 w-full h-full ">
         <img className="object-cover w-full h-full" src="/galaxy.gif" />
       </div>
-      <div className="relative z-20">
-        <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center group-hover:text-lime-500">
+      <div className="relative z-20 ">
+        <h2 className="text-white  reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-14 leading-9 z-20 text-center group-hover:text-lime-500">
           All projects
         </h2>
-        <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+        <Tabs selectedIndex={tabIndex} className="mt-52" onSelect={(index) => setTabIndex(index)}>
           <TabList className="flex flex-wrap justify-center border-0 border-b-gray-800 gap-x-2 ">
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 mt-0 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 0 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               All
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 lg:-mt-5 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 1 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               Portfolio
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 lg:-mt-10 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 2 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               e-commerce
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 lg:-mt-14 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 3 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               social
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 lg:-mt-20 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 4 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               ftp server
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 lg:-mt-14 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 5 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               education
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 lg:-mt-10 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 6 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               mobile
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 lg:-mt-5 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 7 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
               Blog
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 h-10 mt-0 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 8 ? " bg-blue-500 group-hover:text-green-500" : "bg-blue-600 bg-opacity-20 "
               }`}
             >
@@ -155,7 +155,7 @@ const Project = () => {
                 return (
                   <div
                     key={index}
-                    className="relative w-full overflow-hidden border border-gray-900 h-80 group"
+                    className={`relative w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7?"lg:lg:-mt-20":""}`}
                   >
                     <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
                       <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
@@ -193,7 +193,7 @@ const Project = () => {
                   return (
                     <div
                       key={index}
-                      className="relative w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative w-full overflow-hidden border border-gray-900 h-80 group ${index==1||index==4||index==7?"lg:lg:-mt-20":""}`}
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
                         <h5 className="text-[24px] font-gruppo text-white font-bold">
@@ -236,7 +236,7 @@ const Project = () => {
                   return (
                     <div
                       key={index}
-                      className="relative w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7?"lg:lg:-mt-20":""}`}
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
                         <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
@@ -279,7 +279,7 @@ const Project = () => {
                   return (
                     <div
                       key={index}
-                      className="relative w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7?"lg:lg:-mt-20":""}`}
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
                         <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
@@ -322,7 +322,7 @@ const Project = () => {
                   return (
                     <div
                       key={index}
-                      className="relative w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7?"lg:-mt-20":""}`}
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
                         <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
@@ -365,7 +365,7 @@ const Project = () => {
                   return (
                     <div
                       key={index}
-                      className="relative w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7?"lg:-mt-20":""}`}
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
                         <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
@@ -408,7 +408,7 @@ const Project = () => {
                   return (
                     <div
                       key={index}
-                      className="relative w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7?"lg:-mt-20":""}`}
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
                         <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">
@@ -451,7 +451,7 @@ const Project = () => {
                   return (
                     <div
                       key={index}
-                      className="relative w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7?"lg:-mt-20":""}`}
                     >
                       <div className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-full bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80">
                         <h5 className="group-hover:text-green-500 text-[24px] font-gruppo text-white font-bold font-bold">

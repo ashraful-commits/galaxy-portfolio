@@ -138,38 +138,38 @@ const Blog = () => {
             </div>
           </div>
         <div className="flex items-center justify-center my-10">
-        <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+        <Tabs selectedIndex={tabIndex} className="mt-20" onSelect={(index) => setTabIndex(index)}>
           <TabList className="flex flex-wrap justify-center border-0 border-b-gray-800 gap-x-2 ">
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 text-white border min-w-[100px] flex justify-center items-center my-1 h-10 mt-0 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 0 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-purple-500 font-bold"
               }`}
             >
               All
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 text-white border min-w-[100px] flex justify-center items-center my-1 h-10 -mt-5 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 1 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-purple-500 font-bold"
               }`}
             >
               React
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 text-white border min-w-[100px] flex justify-center items-center my-1 h-10 -mt-10 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 2 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-purple-500 font-bold"
               }`}
             >
              Next
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 text-white border min-w-[100px] flex justify-center items-center my-1 h-10 -mt-5 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 3 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-purple-500 font-bold"
               }`}
             >
               Node js
             </Tab>
             <Tab
-              className={` uppercase px-3 py-1 text-white border my-1 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
+              className={` uppercase px-3 py-1 text-white border min-w-[100px] flex justify-center items-center my-1 h-10 mt-0 border-gray-900 active:bg-blue-500 font-gruppo text-[16px] cursor-pointer reflection ${
                 tabIndex == 4 ? "bg-blue-600" : "bg-blue-600 bg-opacity-20 group-hover:text-purple-500 font-bold"
               }`}
             >
@@ -178,14 +178,14 @@ const Blog = () => {
             
           </TabList>
           <hr className="my-2 border-0 " />
-          <div className="w-full h-full">
+          <div className="w-full h-full mt-10">
           <TabPanel className="flex items-center justify-center">
             <div className="grid items-center justify-center w-full grid-cols-1 gap-1 lg:grid-cols-3 md:grid-cols-3">
               {mernPosts.map((item, index) => {
                 return (
                   <div
                     key={index}
-                    className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
+                    className={`relative flex w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7||index===10?"lg:-mt-14":""}`}
                   >
                     <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
@@ -218,7 +218,7 @@ const Blog = () => {
                   return (
                    <div
                       key={index}
-                      className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative flex w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7||index===10?"lg:-mt-14":""}`}
                     >
                       <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
@@ -253,7 +253,7 @@ const Blog = () => {
                   return (
                    <div
                       key={index}
-                      className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative flex w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7||index===10?"lg:-mt-14":""}`}
                     >
                       <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
@@ -288,7 +288,7 @@ const Blog = () => {
                   return (
                    <div
                       key={index}
-                      className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative flex w-full overflow-hidden border border-gray-900 h-80 group ${index===1?"-mt-10":""}`}
                     >
                       <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">
@@ -316,7 +316,6 @@ const Blog = () => {
               )}
             </div>
           </TabPanel>
-         
           <TabPanel className="flex items-center justify-center">
             <div className="grid items-center justify-center w-full grid-cols-1 gap-1 lg:grid-cols-3 md:grid-cols-3">
               {mernPosts.filter((item) => item.category== "express").map(
@@ -324,7 +323,7 @@ const Blog = () => {
                   return (
                    <div
                       key={index}
-                      className="relative flex w-full overflow-hidden border border-gray-900 h-80 group"
+                      className={`relative flex w-full overflow-hidden border border-gray-900 h-80 group ${index===1||index===4||index===7||index===10?"lg:-mt-14":""}`}
                     >
                       <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full p-5 text-center bg-gray-900 gap-y-3 bg-opacity-5 hover:backdrop-blur-sm group-hover:bg-opacity-80 ">
                       <div className="flex justify-between w-full px-5">

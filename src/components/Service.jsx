@@ -16,12 +16,12 @@ const Service = () => {
         <div className="absolute top-0 left-0 z-10 w-full h-full ">
             <img className="object-cover w-full h-full" src="/galaxy.gif" alt="" />
         </div>
-         <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-20 leading-9 z-20 text-center relative group-hover:text-yellow-500 ">
+         <h2 className="text-white reflection text-[32px] lg:text-[50px] md:text-[50px] font-syncopate my-32 leading-9 z-20 text-center relative group-hover:text-yellow-500 ">
           All Services
         </h2>
      
       <div className="relative z-10 grid grid-cols-1 gap-2 md:grid-cols-4 lg:grid-cols-4">
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] mt-0 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaLaptop size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6  font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Web Development
@@ -34,7 +34,7 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] lg:-mt-14 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaShoppingCart size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Custom Web Applications
@@ -47,7 +47,7 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] lg:-mt-14 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaCode size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             API Development
@@ -60,7 +60,7 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] mt-0 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaDatabase size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Database Management
@@ -72,7 +72,7 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] mt-0 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaReact size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Front-End Development
@@ -84,7 +84,7 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] lg:-mt-14 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaServer size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Back-End Development
@@ -96,7 +96,7 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] lg:-mt-14 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaCloudUploadAlt size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Deployment and Hosting
@@ -109,7 +109,7 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] mt-0 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaUsers size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Collaboration and Communication
@@ -122,7 +122,7 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="w-full min-h-[35vh] border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
+        <div className="w-full h-[300px] mt-0 border border-gray-900 bg-blue-600 bg-opacity-5 hover:backdrop-blur-sm p-5 flex flex-col items-center justify-center hover:bg-opacity-20 transition-all ease-in-out duration-300">
           <FaFolderOpen size={70} color="white" className="reflection group-hover:fill-orange-500" />
           <h4 className="my-6 font-normal text-center text-white font-syncopate text-[18px] reflection leading-5  ">
             Case Studies and Projects
