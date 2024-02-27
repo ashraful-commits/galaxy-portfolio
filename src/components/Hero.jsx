@@ -8,7 +8,8 @@ const Hero = () => {
     <div className="absolute top-0 left-0 z-10 w-full h-full ">
     <img className="w-full h-full " src="/galaxy.gif" alt="galaxy" />
     </div>
-    <div style={{clipPath: "polygon(45% 0, 54% 0, 100% 100%, 0% 100%)"}} className="absolute bottom-0 z-20 w-full h-[50%] mt-0 bg-gradient-to-b hover:backdrop-blur-sm bg-opacity-10 group-hover:via-gray-900 group-hover:from-transparent to-transparent"></div>
+    <div style={{clipPath: "polygon(32% 0, 69% 0, 100% 100%, 0% 100%)"}} className="absolute bottom-0 z-20 w-full h-[80%] mt-0 bg-black"></div>
+    <div style={{clipPath: "polygon(47% 0, 60% 0, 100% 100%, 0% 100%)"}} className="absolute bottom-0 z-20 w-full h-[50%] mt-0 bg-gradient-to-b hover:backdrop-blur-sm bg-opacity-10 group-hover:via-gray-900 group-hover:from-transparent to-transparent"></div>
     <div className="absolute z-[9999999] w-full">
     
     <div className="flex flex-col items-center justify-center w-full h-full px-10 mt-52 logo">
